@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Recovery</title>
+    <link rel="stylesheet" href="question4.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="menu">
+            <h2>Questions</h2>
+            <nav>
+                <ul>
+                    <li><a href="https://violinistaestudante.github.io/questao1/"> 🎧 Question 1 - Listening</a></li>
+                    <li><a href="https://violinistaestudante.github.io/questao2/"> ✍ Question 2 - Word Search </a></li>
+                    <li><a href="https://violinistaestudante.github.io/questao3/"> 🔠 Question 3 - Multiple Choice </a></li>
+                    <li><a href="https://violinistaestudante.github.io/questao4/"> 📓 Question 4 - Fill Blanks </a></li>
+                    <li><a href="https://violinistaestudante.github.io/questao5/"> 👋 Question 5 - Drag and Drop </a></li>
+                </ul>
+            </nav>
+        </aside>
+
+    <main>
+        <header>
+            <h1>📓 Question 4 - Fill Blanks</h1>
+            <p>Assista o vídeo e complete as lacunas abaixo!</p>
+        </header>
+
+        <section class="video-section">
+            <h2>Watch the video:</h2>
+            <video controls width="600">
+                <source src="videos/sample-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section class="fill-blanks-section">
+            <h2>Fill in the Blanks:</h2>
+            <p>Complete the following paragraph with the missing words.</p>
+            <p><b>Anthem</b> - <b>Rebellion</b> - <b>Stomping</b> - <b>Music</b> - <b>Song</b></p>
+            <form id="fill-blanks-form">
+                <p>The song "<b>We Will Rock You</b>" by Queen is an anthem of <input type="text" name="word1" placeholder="(word 1)"> and self-empowerment. It is known for its <input type="text" name="word2" placeholder="(word 2)"> beats and simple, yet powerful lyrics. The song has been a popular <input type="text" name="word3" placeholder="(word 3)"> at sports events worldwide.</p>
+
+                <button type="button" onclick="checkBlanks()">Submit Answers</button>
+            </form>
+            <p id="feedback"></p>
+        </section>
+    </main>
+
+    <script src="question4.js"></script>
+    </div>
+    </body>
+    </html>
